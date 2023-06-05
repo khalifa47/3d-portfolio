@@ -13,9 +13,12 @@ import {
     figma,
     kplc,
     strath,
-    carrent,
-    jobit,
-    tripguide,
+    kplcClearance,
+    disney,
+    ntsa,
+    ploxy,
+    rems,
+    karo,
     nextjs,
     azure,
     firebase,
@@ -182,67 +185,166 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "KPLC Clearance",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "An employee clearance system designed to facilitate the clearance process for exiting members of staff at Kenya Power.",
         tags: [
             {
-                name: "react",
+                name: "Next13",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "MaterialUI",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
+                name: "MySQL",
                 color: "pink-text-gradient",
             },
+            {
+                name: "Prisma",
+                color: "green-text-gradient",
+            },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: kplcClearance,
+        link: "https://kplc-clearance.vercel.app/",
+        creds: "https://drive.google.com/file/d/1T6fJ1-lsvgm8xV3nE2mdsVDXDANOd90D/view?usp=share_link",
+        source_code_link: null,
     },
     {
-        name: "Job IT",
+        name: "Disney Plus Clone",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "A Disney Plus clone (not exact) that displays the latest movie updates and trailers, powered by the TMDb and YouTube APIs.",
         tags: [
             {
-                name: "react",
+                name: "React",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "Redux",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "styled-comps",
                 color: "pink-text-gradient",
             },
+            {
+                name: "Firebase",
+                color: "orange-text-gradient",
+            }
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: disney,
+        link: "https://disney-clone-plus-ae2ae.web.app",
+        creds: null,
+        source_code_link: "https://github.com/khalifa47/disney-plus-clone",
     },
     {
-        name: "Trip Guide",
+        name: "REMS",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "A real estate management system. From searching for properties to management of properties, this web application has it all!",
         tags: [
             {
-                name: "nextjs",
+                name: "Laravel",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "ReactMUI",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "MySQL",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "MPesaAPI",
+                color: "orange-text-gradient",
+            }
+        ],
+        image: rems,
+        link: null,
+        creds: null,
+        source_code_link: null,
+    },
+    {
+        name: "Ploxy News",
+        description:
+            "A news application that displays the latest news updates at a glance with different categories.",
+        tags: [
+            {
+                name: "ReactMUI",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Redux",
+                color: "green-text-gradient",
+            },
+            {
+                name: "NewsAPI",
                 color: "pink-text-gradient",
             },
+            {
+                name: "Firebase",
+                color: "orange-text-gradient",
+            }
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: ploxy,
+        link: null, // "https://ploxy-ccf01.web.app"
+        creds: null,
+        source_code_link: "https://github.com/khalifa47/ploxy",
+    },
+    {
+        name: "NTSA Drivers",
+        description:
+            "An application dealing with the driver's licence management. Dummy data is used to mock the government registry.",
+        tags: [
+            {
+                name: "ReactMUI",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Redux",
+                color: "green-text-gradient",
+            },
+            {
+                name: "MpesaAPI",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Firebase",
+                color: "orange-text-gradient",
+            }
+        ],
+        image: ntsa,
+        link: "https://ntsadrivers.web.app/",
+        creds: "https://github.com/khalifa47/ntsa-drivers/blob/master/src/records.json",
+        source_code_link: "https://github.com/khalifa47/ntsa-drivers",
+    },
+    {
+        name: "Karo",
+        description:
+            "An Android application dealing with school fees management.",
+        tags: [
+            {
+                name: "Android",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Kotlin",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Compose",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Firebase",
+                color: "orange-text-gradient",
+            }
+        ],
+        image: karo,
+        link: null,
+        creds: null,
+        source_code_link: "https://github.com/khalifa47/karo",
     },
 ];
 

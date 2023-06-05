@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import readme from "./readme.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -24,9 +25,12 @@ import python from "./tech/python.svg";
 import kplc from "./company/kplc.png";
 import strath from "./company/strath.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import kplcClearance from "./projects/kplc-clearance.png";
+import disney from "./projects/disney-clone.webp";
+import ntsa from "./projects/ntsa.webp";
+import ploxy from "./projects/ploxy.webp";
+import rems from "./projects/rems.webp";
+import karo from "./projects/karo.png";
 
 export {
   logo,
@@ -35,6 +39,7 @@ export {
   mobile,
   web,
   github,
+  readme,
   menu,
   close,
   mui,
@@ -48,9 +53,12 @@ export {
   nextjs,
   kplc,
   strath,
-  carrent,
-  jobit,
-  tripguide,
+  kplcClearance,
+  disney,
+  ntsa,
+  ploxy,
+  rems,
+  karo,
   azure,
   firebase,
   prisma,
