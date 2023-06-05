@@ -27,16 +27,28 @@ import {
 
 export const navLinks = [
     {
-        id: "about",
+        link: "about",
         title: "About",
     },
     {
-        id: "work",
+        link: "work",
         title: "Work",
     },
     {
-        id: "contact",
+        link: "contact",
         title: "Contact",
+    },
+    {
+        link: "https://github.com/khalifa47",
+        title: "GitHub",
+    },
+    {
+        link: "https://www.linkedin.com/in/khalifa-fumo-4199781ba/",
+        title: "LinkedIn",
+    },
+    {
+        link: "https://drive.google.com/file/d/1Y9euqs9OMPXQOk3VXwiX5BjGwVOvhhrU/view?usp=sharing",
+        title: "Resume",
     },
 ];
 

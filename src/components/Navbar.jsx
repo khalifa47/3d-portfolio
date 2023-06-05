@@ -56,13 +56,23 @@ const Navbar = () => {
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((nav) => (
             <li
-              key={nav.id}
+              key={nav.title}
               className={`${
                 active === nav.title ? "text-white" : "text-secondary"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
+              onClick={() =>
+                !nav.link.startsWith("https") && setActive(nav.title)
+              }
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <a
+                href={
+                  nav.link.startsWith("https") ? `${nav.link}` : `#${nav.link}`
+                }
+                rel="noreferrer"
+                target={nav.link.startsWith("https") ? "_blank" : "_self"}
+              >
+                {nav.title}
+              </a>
             </li>
           ))}
         </ul>
@@ -83,16 +93,26 @@ const Navbar = () => {
             <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
               {navLinks.map((nav) => (
                 <li
-                  key={nav.id}
+                  key={nav.title}
                   className={`font-poppins font-medium cursor-pointer text-[16px] ${
                     active === nav.title ? "text-white" : "text-secondary"
                   }`}
                   onClick={() => {
                     setToggle(!toggle);
-                    setActive(nav.title);
+                    !nav.link.startsWith("https") && setActive(nav.title);
                   }}
                 >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                  <a
+                    href={
+                      nav.link.startsWith("https")
+                        ? `${nav.link}`
+                        : `#${nav.link}`
+                    }
+                    rel="noreferrer"
+                    target={nav.link.startsWith("https") ? "_blank" : "_self"}
+                  >
+                    {nav.title}
+                  </a>
                 </li>
               ))}
             </ul>
