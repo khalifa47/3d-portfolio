@@ -13,7 +13,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
-      <motion.p
+      <motion.div
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 space-y-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
@@ -29,7 +29,7 @@ const About = () => {
           tech trends, and enjoy outdoors activities.
         </p>
         <p>Let&apos;s work together to bring your ideas to life!</p>
-      </motion.p>
+      </motion.div>
 
       <div className="mt-10 flex flex-wrap gap-10">
         {services.map((service, index) => (
