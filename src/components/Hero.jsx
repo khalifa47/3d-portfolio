@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
-const Hero = () => {
+const Hero = ({ isMobile }) => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -21,12 +21,20 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop full-stack web and mobile applications 🧑‍💻. &nbsp;
             <br className="sm:block hidden" />
-            Currently learning AI/ML 🤖.
+            Currently exploring AI/ML 🤖.
           </p>
         </div>
       </div>
 
-      <ComputersCanvas />
+      {isMobile ? (
+        <img
+          src="/pc.png"
+          alt="pc"
+          className="absolute bottom-20 object-contain w-full h-1/3 scale-125"
+        />
+      ) : (
+        <ComputersCanvas />
+      )}
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">

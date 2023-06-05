@@ -15,7 +15,7 @@ import reactjs from "./tech/reactjs.png";
 import compose from "./tech/compose.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import nextjs from "./tech/nextjs.svg";
+import nextjs from "./tech/nextjs.png";
 import mui from "./tech/material-ui.svg";
 import azure from "./tech/azure.svg";
 import firebase from "./tech/firebase.svg";
