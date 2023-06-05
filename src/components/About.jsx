@@ -9,7 +9,7 @@ const About = () => {
   return (
     <>
       <div className="flex justify-between items-center gap-5 flex-wrap-reverse md:flex-nowrap">
-        <div className="">
+        <div>
           <motion.div variants={textVariant()}>
             <p className={styles.sectionSubText}>Introduction</p>
             <h2 className={styles.sectionHeadText}>Overview.</h2>
