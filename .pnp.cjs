@@ -44,6 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.4.24"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:7ae8f58562caf6754a5e0f0120bc8b8483205b0ecfd9d03efe1bc70bfa34ec5558882a6670d82fe0ea955c880c396d45816f33fe90f85ee452066dc0ffb9fc95#npm:18.2.0"],\
+            ["react-helmet", "virtual:7ae8f58562caf6754a5e0f0120bc8b8483205b0ecfd9d03efe1bc70bfa34ec5558882a6670d82fe0ea955c880c396d45816f33fe90f85ee452066dc0ffb9fc95#npm:6.1.0"],\
             ["react-router-dom", "virtual:7ae8f58562caf6754a5e0f0120bc8b8483205b0ecfd9d03efe1bc70bfa34ec5558882a6670d82fe0ea955c880c396d45816f33fe90f85ee452066dc0ffb9fc95#npm:6.11.2"],\
             ["react-tilt", "virtual:7ae8f58562caf6754a5e0f0120bc8b8483205b0ecfd9d03efe1bc70bfa34ec5558882a6670d82fe0ea955c880c396d45816f33fe90f85ee452066dc0ffb9fc95#npm:1.0.2"],\
             ["react-vertical-timeline-component", "npm:3.6.0"],\
@@ -75,6 +76,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.4.24"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:7ae8f58562caf6754a5e0f0120bc8b8483205b0ecfd9d03efe1bc70bfa34ec5558882a6670d82fe0ea955c880c396d45816f33fe90f85ee452066dc0ffb9fc95#npm:18.2.0"],\
+            ["react-helmet", "virtual:7ae8f58562caf6754a5e0f0120bc8b8483205b0ecfd9d03efe1bc70bfa34ec5558882a6670d82fe0ea955c880c396d45816f33fe90f85ee452066dc0ffb9fc95#npm:6.1.0"],\
             ["react-router-dom", "virtual:7ae8f58562caf6754a5e0f0120bc8b8483205b0ecfd9d03efe1bc70bfa34ec5558882a6670d82fe0ea955c880c396d45816f33fe90f85ee452066dc0ffb9fc95#npm:6.11.2"],\
             ["react-tilt", "virtual:7ae8f58562caf6754a5e0f0120bc8b8483205b0ecfd9d03efe1bc70bfa34ec5558882a6670d82fe0ea955c880c396d45816f33fe90f85ee452066dc0ffb9fc95#npm:1.0.2"],\
             ["react-vertical-timeline-component", "npm:3.6.0"],\
@@ -4025,6 +4027,41 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["react-fast-compare", [\
+        ["npm:3.2.2", {\
+          "packageLocation": "./.yarn/cache/react-fast-compare-npm-3.2.2-45b585a872-2071415b4f.zip/node_modules/react-fast-compare/",\
+          "packageDependencies": [\
+            ["react-fast-compare", "npm:3.2.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-helmet", [\
+        ["npm:6.1.0", {\
+          "packageLocation": "./.yarn/cache/react-helmet-npm-6.1.0-20fd5447ff-a4998479da.zip/node_modules/react-helmet/",\
+          "packageDependencies": [\
+            ["react-helmet", "npm:6.1.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:7ae8f58562caf6754a5e0f0120bc8b8483205b0ecfd9d03efe1bc70bfa34ec5558882a6670d82fe0ea955c880c396d45816f33fe90f85ee452066dc0ffb9fc95#npm:6.1.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-helmet-virtual-e003a3597d/0/cache/react-helmet-npm-6.1.0-20fd5447ff-a4998479da.zip/node_modules/react-helmet/",\
+          "packageDependencies": [\
+            ["react-helmet", "virtual:7ae8f58562caf6754a5e0f0120bc8b8483205b0ecfd9d03efe1bc70bfa34ec5558882a6670d82fe0ea955c880c396d45816f33fe90f85ee452066dc0ffb9fc95#npm:6.1.0"],\
+            ["@types/react", "npm:18.2.8"],\
+            ["object-assign", "npm:4.1.1"],\
+            ["prop-types", "npm:15.8.1"],\
+            ["react", "npm:18.2.0"],\
+            ["react-fast-compare", "npm:3.2.2"],\
+            ["react-side-effect", "virtual:e003a3597d97296934d5766be162901f4dd55b84941ba90a2fb196f4afa42fa90d9e9454a9abb74d29befe8242cc46f3ab786b0b8870164c293d329a3ea55462#npm:2.1.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["react-intersection-observer", [\
         ["npm:8.34.0", {\
           "packageLocation": "./.yarn/cache/react-intersection-observer-npm-8.34.0-3972ad1cd7-7713fecfd1.zip/node_modules/react-intersection-observer/",\
@@ -4135,6 +4172,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "@types/react-dom",\
             "@types/react",\
             "react-dom",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-side-effect", [\
+        ["npm:2.1.2", {\
+          "packageLocation": "./.yarn/cache/react-side-effect-npm-2.1.2-c18e5fd8bd-c5eb1f42b4.zip/node_modules/react-side-effect/",\
+          "packageDependencies": [\
+            ["react-side-effect", "npm:2.1.2"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:e003a3597d97296934d5766be162901f4dd55b84941ba90a2fb196f4afa42fa90d9e9454a9abb74d29befe8242cc46f3ab786b0b8870164c293d329a3ea55462#npm:2.1.2", {\
+          "packageLocation": "./.yarn/__virtual__/react-side-effect-virtual-7cca65c1e5/0/cache/react-side-effect-npm-2.1.2-c18e5fd8bd-c5eb1f42b4.zip/node_modules/react-side-effect/",\
+          "packageDependencies": [\
+            ["react-side-effect", "virtual:e003a3597d97296934d5766be162901f4dd55b84941ba90a2fb196f4afa42fa90d9e9454a9abb74d29befe8242cc46f3ab786b0b8870164c293d329a3ea55462#npm:2.1.2"],\
+            ["@types/react", "npm:18.2.8"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
             "react"\
           ],\
           "linkType": "HARD"\
