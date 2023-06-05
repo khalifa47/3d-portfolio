@@ -5,22 +5,22 @@ import {
     web,
     javascript,
     typescript,
-    html,
-    css,
+    mui,
     reactjs,
-    redux,
+    compose,
     tailwind,
-    nodejs,
-    mongodb,
     git,
     figma,
-    docker,
     kplc,
     strath,
     carrent,
     jobit,
     tripguide,
-    threejs,
+    nextjs,
+    azure,
+    firebase,
+    prisma,
+    python
 } from "../assets";
 
 export const navLinks = [
@@ -71,14 +71,6 @@ const services = [
 
 const technologies = [
     {
-        name: "HTML 5",
-        icon: html,
-    },
-    {
-        name: "CSS 3",
-        icon: css,
-    },
-    {
         name: "JavaScript",
         icon: javascript,
     },
@@ -87,40 +79,48 @@ const technologies = [
         icon: typescript,
     },
     {
-        name: "React JS",
+        name: "React.js",
         icon: reactjs,
     },
     {
-        name: "Redux Toolkit",
-        icon: redux,
+        name: "Next.js",
+        icon: nextjs,
+    },
+    {
+        name: "Material UI",
+        icon: mui,
     },
     {
         name: "Tailwind CSS",
         icon: tailwind,
     },
     {
-        name: "Node JS",
-        icon: nodejs,
+        name: "Prisma",
+        icon: prisma,
     },
     {
-        name: "MongoDB",
-        icon: mongodb,
+        name: "Android Compose",
+        icon: compose,
     },
     {
-        name: "Three JS",
-        icon: threejs,
+        name: "Azure",
+        icon: azure,
     },
     {
-        name: "git",
+        name: "Firebase",
+        icon: firebase,
+    },
+    {
+        name: "Python",
+        icon: python,
+    },
+    {
+        name: "Git",
         icon: git,
     },
     {
-        name: "figma",
+        name: "Figma",
         icon: figma,
-    },
-    {
-        name: "docker",
-        icon: docker,
     },
 ];
 

@@ -7,19 +7,19 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import compose from "./tech/compose.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/nextjs.svg";
+import mui from "./tech/material-ui.svg";
+import azure from "./tech/azure.svg";
+import firebase from "./tech/firebase.svg";
+import prisma from "./tech/prisma.svg";
+import python from "./tech/python.svg";
 
 import kplc from "./company/kplc.png";
 import strath from "./company/strath.png";
@@ -37,22 +37,22 @@ export {
   github,
   menu,
   close,
-  css,
-  docker,
+  mui,
   figma,
   git,
-  html,
   javascript,
-  mongodb,
-  nodejs,
   reactjs,
-  redux,
+  compose,
   tailwind,
   typescript,
-  threejs,
+  nextjs,
   kplc,
   strath,
   carrent,
   jobit,
   tripguide,
+  azure,
+  firebase,
+  prisma,
+  python,
 };
