@@ -20,7 +20,7 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div
-      animate={fadeIn("up", "spring", index * 0.5, 0.75)}
+      variants={fadeIn("left", "spring", index * 0.5, 0.75)}
       className={link && "cursor-pointer"}
       onClick={() => link && window.open(link, "_blank")}
     >
@@ -91,14 +91,14 @@ const Works = () => {
   return (
     <>
       <div>
-        <motion.div animate={textVariant()}>
+        <motion.div variants={textVariant()}>
           <p className={`${styles.sectionSubText} `}>My work</p>
           <h2 className={`${styles.sectionHeadText}`}>Projects🛠️.</h2>
         </motion.div>
 
         <div className="w-full flex">
           <motion.p
-            animate={fadeIn("", "", 0.1, 1)}
+            variants={fadeIn("", "", 0.1, 1)}
             className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
             The following projects showcase my skills and experience through
