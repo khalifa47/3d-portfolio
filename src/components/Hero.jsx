@@ -5,7 +5,7 @@ import { ComputersCanvas } from "./canvas";
 
 const Hero = ({ isMobile }) => {
   return (
-    <section className={`relative w-full h-screen mx-auto`}>
+    <section className={`relative w-full h-[96vh] sm:h-screen mx-auto`}>
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -30,7 +30,7 @@ const Hero = ({ isMobile }) => {
         <img
           src="/pc.png"
           alt="pc"
-          className="absolute bottom-20 object-contain w-full h-1/3 scale-125"
+          className="absolute bottom-20 object-contain w-full h-1/3"
         />
       ) : (
         <ComputersCanvas />

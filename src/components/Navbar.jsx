@@ -45,11 +45,10 @@ const Navbar = () => {
           <img
             src={logo}
             alt="logo"
-            className="w-20 h-20 object-contain rounded-s-xl"
+            className="w-20 h-20 object-cover rounded-s-xl"
           />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-            Khalifa &nbsp;
-            <span className="sm:block hidden"> | Software Engineer</span>
+          <p className="text-white text-[14px] sm:text-[18px] font-bold cursor-pointer flex">
+            Software Engineer
           </p>
         </Link>
 
