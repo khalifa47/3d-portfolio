@@ -47,6 +47,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-helmet", "virtual:7ae8f58562caf6754a5e0f0120bc8b8483205b0ecfd9d03efe1bc70bfa34ec5558882a6670d82fe0ea955c880c396d45816f33fe90f85ee452066dc0ffb9fc95#npm:6.1.0"],\
             ["react-router-dom", "virtual:7ae8f58562caf6754a5e0f0120bc8b8483205b0ecfd9d03efe1bc70bfa34ec5558882a6670d82fe0ea955c880c396d45816f33fe90f85ee452066dc0ffb9fc95#npm:6.11.2"],\
             ["react-tilt", "virtual:7ae8f58562caf6754a5e0f0120bc8b8483205b0ecfd9d03efe1bc70bfa34ec5558882a6670d82fe0ea955c880c396d45816f33fe90f85ee452066dc0ffb9fc95#npm:1.0.2"],\
+            ["react-toastify", "virtual:7ae8f58562caf6754a5e0f0120bc8b8483205b0ecfd9d03efe1bc70bfa34ec5558882a6670d82fe0ea955c880c396d45816f33fe90f85ee452066dc0ffb9fc95#npm:9.1.3"],\
             ["react-vertical-timeline-component", "npm:3.6.0"],\
             ["tailwindcss", "npm:3.3.2"],\
             ["three", "npm:0.153.0"],\
@@ -79,6 +80,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-helmet", "virtual:7ae8f58562caf6754a5e0f0120bc8b8483205b0ecfd9d03efe1bc70bfa34ec5558882a6670d82fe0ea955c880c396d45816f33fe90f85ee452066dc0ffb9fc95#npm:6.1.0"],\
             ["react-router-dom", "virtual:7ae8f58562caf6754a5e0f0120bc8b8483205b0ecfd9d03efe1bc70bfa34ec5558882a6670d82fe0ea955c880c396d45816f33fe90f85ee452066dc0ffb9fc95#npm:6.11.2"],\
             ["react-tilt", "virtual:7ae8f58562caf6754a5e0f0120bc8b8483205b0ecfd9d03efe1bc70bfa34ec5558882a6670d82fe0ea955c880c396d45816f33fe90f85ee452066dc0ffb9fc95#npm:1.0.2"],\
+            ["react-toastify", "virtual:7ae8f58562caf6754a5e0f0120bc8b8483205b0ecfd9d03efe1bc70bfa34ec5558882a6670d82fe0ea955c880c396d45816f33fe90f85ee452066dc0ffb9fc95#npm:9.1.3"],\
             ["react-vertical-timeline-component", "npm:3.6.0"],\
             ["tailwindcss", "npm:3.3.2"],\
             ["three", "npm:0.153.0"],\
@@ -1570,6 +1572,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/clean-stack-npm-2.2.0-a8ce435a5c-2ac8cd2b2f.zip/node_modules/clean-stack/",\
           "packageDependencies": [\
             ["clean-stack", "npm:2.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["clsx", [\
+        ["npm:1.2.1", {\
+          "packageLocation": "./.yarn/cache/clsx-npm-1.2.1-77792dc182-30befca801.zip/node_modules/clsx/",\
+          "packageDependencies": [\
+            ["clsx", "npm:1.2.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4213,6 +4224,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-tilt", "virtual:7ae8f58562caf6754a5e0f0120bc8b8483205b0ecfd9d03efe1bc70bfa34ec5558882a6670d82fe0ea955c880c396d45816f33fe90f85ee452066dc0ffb9fc95#npm:1.0.2"],\
             ["@types/react", "npm:18.2.8"],\
             ["@types/react-dom", "npm:18.2.4"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:7ae8f58562caf6754a5e0f0120bc8b8483205b0ecfd9d03efe1bc70bfa34ec5558882a6670d82fe0ea955c880c396d45816f33fe90f85ee452066dc0ffb9fc95#npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-toastify", [\
+        ["npm:9.1.3", {\
+          "packageLocation": "./.yarn/cache/react-toastify-npm-9.1.3-2f82dd0b41-e8bd92c5cb.zip/node_modules/react-toastify/",\
+          "packageDependencies": [\
+            ["react-toastify", "npm:9.1.3"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:7ae8f58562caf6754a5e0f0120bc8b8483205b0ecfd9d03efe1bc70bfa34ec5558882a6670d82fe0ea955c880c396d45816f33fe90f85ee452066dc0ffb9fc95#npm:9.1.3", {\
+          "packageLocation": "./.yarn/__virtual__/react-toastify-virtual-7484b166f3/0/cache/react-toastify-npm-9.1.3-2f82dd0b41-e8bd92c5cb.zip/node_modules/react-toastify/",\
+          "packageDependencies": [\
+            ["react-toastify", "virtual:7ae8f58562caf6754a5e0f0120bc8b8483205b0ecfd9d03efe1bc70bfa34ec5558882a6670d82fe0ea955c880c396d45816f33fe90f85ee452066dc0ffb9fc95#npm:9.1.3"],\
+            ["@types/react", "npm:18.2.8"],\
+            ["@types/react-dom", "npm:18.2.4"],\
+            ["clsx", "npm:1.2.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:7ae8f58562caf6754a5e0f0120bc8b8483205b0ecfd9d03efe1bc70bfa34ec5558882a6670d82fe0ea955c880c396d45816f33fe90f85ee452066dc0ffb9fc95#npm:18.2.0"]\
           ],\

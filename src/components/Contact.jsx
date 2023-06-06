@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -16,6 +17,26 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false);
+
+  const notify = (isSuccess) => {
+    const options = {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: false,
+      draggable: false,
+      progress: undefined,
+      theme: "dark",
+    };
+
+    return isSuccess
+      ? toast.success(
+          "Thank you. I will get back to you as soon as possible!",
+          options
+        )
+      : toast.error("Ahh, something went wrong. Please try again.", options);
+  };
 
   const handleChange = (e) => {
     const { target } = e;
@@ -47,7 +68,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          notify(true);
 
           setForm({
             name: "",
@@ -59,7 +80,7 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          notify(false);
         }
       );
   };

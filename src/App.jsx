@@ -1,5 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.min.css";
 
 import {
   About,
@@ -64,6 +66,7 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
+        <ToastContainer />
       </div>
     </BrowserRouter>
   );
