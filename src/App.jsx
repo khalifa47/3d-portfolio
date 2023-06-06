@@ -18,6 +18,7 @@ import { useState, useEffect } from "react";
 
 const App = () => {
   const [isMobile, setIsMobile] = useState(false);
+  globalThis.isMobile = isMobile;
 
   useEffect(() => {
     // Add a listener for changes to the screen size
@@ -29,6 +30,7 @@ const App = () => {
     // Define a callback function to handle changes to the media query
     const handleMediaQueryChange = (event) => {
       setIsMobile(event.matches);
+      globalThis.isMobile = isMobile;
     };
 
     // Add the callback function as a listener for changes to the media query
@@ -38,7 +40,7 @@ const App = () => {
     return () => {
       mediaQuery.removeEventListener("change", handleMediaQueryChange);
     };
-  }, []);
+  }, [isMobile]);
 
   return (
     <BrowserRouter>
