@@ -18,7 +18,7 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
-  const notify = (isSuccess) => {
+  const notify = (isSuccess, message) => {
     const options = {
       position: "top-center",
       autoClose: 5000,
@@ -35,7 +35,10 @@ const Contact = () => {
           "Thank you. I will get back to you as soon as possible!",
           options
         )
-      : toast.error("Ahh, something went wrong. Please try again.", options);
+      : toast.error(
+          message ? message : "Ahh, something went wrong. Please try again.",
+          options
+        );
   };
 
   const handleChange = (e) => {
@@ -51,6 +54,11 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
+
+    if (!form.name || !form.email || !form.message) {
+      setLoading(false);
+      return notify(false, "Please fill in all fields.");
+    }
 
     emailjs
       .send(
