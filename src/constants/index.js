@@ -13,6 +13,10 @@ import {
     figma,
     kplc,
     strath,
+    tlu,
+    varacraft,
+    sacco,
+    philanthrolink,
     kplcClearance,
     disney,
     ntsa,
@@ -23,7 +27,7 @@ import {
     azure,
     firebase,
     prisma,
-    python
+    python,
 } from "../assets";
 
 export const navLinks = [
@@ -48,7 +52,7 @@ export const navLinks = [
         title: "GitHub",
     },
     {
-        link: "https://www.linkedin.com/in/khalifa-fumo-4199781ba/",
+        link: "https://www.linkedin.com/in/khalifa-fumo",
         title: "LinkedIn",
     },
     {
@@ -133,11 +137,23 @@ const technologies = [
 
 const experiences = [
     {
+        title: "Project Manager/Developer",
+        company_name: "Tallinn University Centre for EdTech",
+        icon: tlu,
+        iconBg: "#fff",
+        date: "January 2024 - June 2024",
+        points: [
+            "Led a team of 6 in developing an AI-enhance EdTech platform to streamline and automate the creation of educational content.",
+            "Utilized OpenAI's APIs and interactive H5P templates to create engaging assessments.",
+            "Worked in a separate team of 5 to develop a crowdfunding platform, using Next.js with Supabase, providing a seamless way for individuals and organizations to donate to verified charitable projects.",
+        ],
+    },
+    {
         title: "Full-stack Developer/IT intern",
         company_name: "Kenya Power",
         icon: kplc,
         iconBg: "#fff",
-        date: "January 2023 - April 2023",
+        date: "January 2023 - March 2023",
         points: [
             "Developed a full-stack web employee clearance system using Next 13 with TypeScript and a MySQL database.",
             "Led a team and participated in reviews, receiving constructive feedback from end-users.",
@@ -150,12 +166,13 @@ const experiences = [
         company_name: "Strathmore University",
         icon: strath,
         iconBg: "#E6DEDD",
-        date: "April 2020 - July 2024",
+        date: "April 2020 - June 2024",
         points: [
             "Developed various web and mobile applications for coursework.",
             "Learnt and applied various software development concepts including data structures, algorithms, and object-oriented programming.",
             "Collaborated with teams including designers and other developers to create high-quality products.",
-            "Achieved various awards and including Dean's list 2020 and 2021.",
+            "Achieved various awards and including Dean's list award for outstanding performance in 2020, 2021, and 2022.",
+            "Graduated with a First-class Honours Bachelor's degree.",
         ],
     }
 ];
@@ -189,12 +206,93 @@ const testimonials = [
 
 const projects = [
     {
+        name: "VaraCraft",
+        description:
+            "An EdTech system developed for teachers to automate content creation for their students.",
+        tags: [
+            {
+                name: "Next.js",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "MaterialUI",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "OpenAI-API",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "H5P",
+                color: "green-text-gradient",
+            },
+        ],
+        image: varacraft,
+        link: null,
+        creds: null,
+        source_code_link: null,
+    },
+    {
+        name: "PhilanthroLink",
+        description:
+            "A crowdfunding platform dedicated to connecting donors with causes they care about.",
+        tags: [
+            {
+                name: "Next.js",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "TailwindCSS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Supabase",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Jest",
+                color: "green-text-gradient",
+            },
+        ],
+        image: philanthrolink,
+        link: null, // "https://philanthrolink.vercel.app/",
+        creds: null,
+        source_code_link: "https://github.com/digital-explorers-2/philanthro-link",
+    },
+    {
+        name: "Kadhi Sacco",
+        description:
+            "An intelligent SACCO Management System designed to provide a seamless platform for financial activities.",
+        tags: [
+            {
+                name: "Next.js",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "MaterialUI",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Supabase",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "sklearn",
+                color: "green-text-gradient",
+            },
+        ],
+        image: sacco,
+        link: "https://sacco-steel.vercel.app",
+        creds: null,
+        source_code_link: "https://github.com/khalifa47/sacco",
+    },
+    {
         name: "KPLC Clearance",
         description:
             "An employee clearance system designed to facilitate the clearance process for exiting members of staff at Kenya Power.",
         tags: [
             {
-                name: "Next13",
+                name: "Next.js",
                 color: "orange-text-gradient",
             },
             {
@@ -319,8 +417,8 @@ const projects = [
             }
         ],
         image: ntsa,
-        link: "https://ntsadrivers.web.app/",
-        creds: "https://github.com/khalifa47/ntsa-drivers/blob/master/src/records.json",
+        link: null, // "https://ntsadrivers.web.app/",
+        creds: null, // "https://github.com/khalifa47/ntsa-drivers/blob/master/src/records.json",
         source_code_link: "https://github.com/khalifa47/ntsa-drivers",
     },
     {

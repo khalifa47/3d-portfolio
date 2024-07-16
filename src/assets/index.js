@@ -24,7 +24,11 @@ import python from "./tech/python.svg";
 
 import kplc from "./company/kplc.png";
 import strath from "./company/strath.png";
+import tlu from "./company/tlu.jpg";
 
+import varacraft from "./projects/varacraft.png";
+import philanthrolink from "./projects/philanthrolink.png";
+import sacco from "./projects/sacco.png";
 import kplcClearance from "./projects/kplc-clearance.png";
 import disney from "./projects/disney-clone.webp";
 import ntsa from "./projects/ntsa.webp";
@@ -53,6 +57,10 @@ export {
   nextjs,
   kplc,
   strath,
+  tlu,
+  varacraft,
+  philanthrolink,
+  sacco,
   kplcClearance,
   disney,
   ntsa,
