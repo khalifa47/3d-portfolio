@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, resume } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -74,6 +74,11 @@ const Navbar = () => {
               </a>
             </li>
           ))}
+          <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
+            <a href={resume} rel="noreferrer" target="_blank">
+              Resume
+            </a>
+          </li>
         </ul>
 
         <div className="lg:hidden flex flex-1 justify-end items-center">
@@ -114,6 +119,11 @@ const Navbar = () => {
                   </a>
                 </li>
               ))}
+              <li className="text-secondary hover:text-white text-[16px] font-medium cursor-pointer">
+                <a href={resume} rel="noreferrer" target="_blank">
+                  Resume
+                </a>
+              </li>
             </ul>
           </div>
         </div>

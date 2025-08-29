@@ -36,6 +36,8 @@ import ploxy from "./projects/ploxy.webp";
 import rems from "./projects/rems.webp";
 import karo from "./projects/karo.png";
 
+import resume from "./Khalifa Fumo.pdf"
+
 export {
   logo,
   backend,
@@ -71,4 +73,5 @@ export {
   firebase,
   prisma,
   python,
+  resume
 };

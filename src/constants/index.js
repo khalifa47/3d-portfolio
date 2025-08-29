@@ -27,7 +27,7 @@ import {
     azure,
     firebase,
     prisma,
-    python,
+    python
 } from "../assets";
 
 export const navLinks = [
@@ -54,10 +54,6 @@ export const navLinks = [
     {
         link: "https://www.linkedin.com/in/khalifa-fumo",
         title: "LinkedIn",
-    },
-    {
-        link: "https://drive.google.com/file/d/1Y9euqs9OMPXQOk3VXwiX5BjGwVOvhhrU/view?usp=sharing",
-        title: "Resume",
     },
 ];
 
