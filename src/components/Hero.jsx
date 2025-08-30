@@ -21,7 +21,7 @@ const Hero = ({ isMobile }) => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop full-stack web and mobile applications 🧑‍💻. &nbsp;
             <br className="sm:block hidden" />
-            Currently exploring AI/ML 🤖.
+            Currently pursuing an MSc in Machine Learning 🤖.
           </p>
         </div>
       </div>

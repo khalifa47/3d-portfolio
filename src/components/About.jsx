@@ -38,10 +38,15 @@ const About = () => {
                 className="text-white text-xl"
                 loop
               />
-              . I have been developing applications for 3 years. I&apos;m a
+              . I have been developing applications for 4 years. I&apos;m a
               quick learner and collaborate closely with clients to create
               efficient, scalable, and user-friendly solutions that solve
               real-world problems.
+            </p>
+            <p>
+              I also have experience working with contemporary data analysis
+              tools and techniques (e.g., Pandas, NumPy, Hadoop, Spark) from my
+              training.
             </p>
             <p>
               When I&apos;m not working on projects, I like to play chess, read

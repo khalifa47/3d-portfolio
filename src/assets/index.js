@@ -25,6 +25,7 @@ import python from "./tech/python.svg";
 import kplc from "./company/kplc.png";
 import strath from "./company/strath.png";
 import tlu from "./company/tlu.jpg";
+import uppsala from "./company/uppsala.png";
 
 import varacraft from "./projects/varacraft.png";
 import philanthrolink from "./projects/philanthrolink.png";
@@ -60,6 +61,7 @@ export {
   kplc,
   strath,
   tlu,
+  uppsala,
   varacraft,
   philanthrolink,
   sacco,

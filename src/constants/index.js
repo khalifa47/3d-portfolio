@@ -14,6 +14,7 @@ import {
     kplc,
     strath,
     tlu,
+    uppsala,
     varacraft,
     sacco,
     philanthrolink,
@@ -59,7 +60,7 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Web Developer",
+        title: "Software Developer",
         icon: web,
     },
     {
@@ -67,12 +68,12 @@ const services = [
         icon: backend,
     },
     {
-        title: "Mobile Developer",
-        icon: mobile,
+        title: "Data Analyst",
+        icon: creator,
     },
     {
-        title: "Azure Developer",
-        icon: creator,
+        title: "Image Specialist",
+        icon: mobile,
     },
 ];
 
@@ -132,6 +133,31 @@ const technologies = [
 ];
 
 const experiences = [
+    {
+        title: "Teaching Assistant",
+        company_name: "Uppsala University",
+        icon: uppsala,
+        iconBg: "#fff",
+        date: "August 2025 - June 2026",
+        points: [
+            "Assisting in teaching undergraduate courses on database design and software testing, helping students grasp complex concepts through practical examples and tutorials.",
+            "Grading assignments and providing constructive feedback to help students improve their understanding of concepts.",
+            "Collaborating with professors to develop course materials and improve the curriculum based on student feedback and learning outcomes.",
+        ],
+    },
+    {
+        title: "Machine Learning Student",
+        company_name: "Uppsala University",
+        icon: uppsala,
+        iconBg: "#fff",
+        date: "September 2024 - June 2026",
+        points: [
+            "Pursuing an MSc in Machine Learning, focusing on advanced machine learning techniques, data analysis, and ethical applications of AI.",
+            "Engaging in hands-on projects and research to apply theoretical knowledge to real-world problems; for example, working on a project to segment cancer cells from microscopic images using deep learning techniques.",
+            "Collaborating with peers and faculty to deepen understanding of machine learning concepts and their practical implementations.",
+            "Participating in seminars and workshops to stay updated with the latest advancements in the field of machine learning and AI.",
+        ],
+    },
     {
         title: "Project Manager/Developer",
         company_name: "Tallinn University Centre for EdTech",
